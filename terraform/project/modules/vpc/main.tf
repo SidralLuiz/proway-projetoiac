@@ -1,5 +1,5 @@
 resource "aws_vpc" "sidral_vpc" {
-  cidr_block = "172.200.0.0/16"
+  cidr_block = "172.102.0.0/16"
   tags = {
     Name = "sidral-vpc"
   }
