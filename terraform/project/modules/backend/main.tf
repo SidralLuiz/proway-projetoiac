@@ -56,7 +56,7 @@ resource "aws_instance" "backend_ec2" {
     echo "cd /proway" >> /opt/rc.proway
     echo "git init" >> /opt/rc.proway
     echo "git config core.sparseCheckout true" >> /opt/rc.proway
-    echo "git remote add -f origin https://github.com/dartanghan/proway-projetoiac" >> /opt/rc.proway
+    echo "git remote add -f origin https://github.com/sidralluiz/proway-projetoiac" >> /opt/rc.proway
     echo "echo "back-end/*" >> .git/info/sparse-checkout" >> /opt/rc.proway
     echo "git checkout main && git pull origin main" >> /opt/rc.proway
     echo "cd back-end && pip install -r requirements.txt" >> /opt/rc.proway
