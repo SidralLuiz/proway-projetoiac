@@ -4,6 +4,6 @@ variable "project_region" {
 }
 
 variable "project_name" {
-    default="dart"
+    default="sidral"
     type=string
 }
